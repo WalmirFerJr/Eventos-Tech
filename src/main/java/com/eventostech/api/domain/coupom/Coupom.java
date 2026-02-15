@@ -1,5 +1,6 @@
 package com.eventostech.api.domain.coupom;
 
+import com.eventostech.api.domain.event.Event;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -16,7 +17,7 @@ import java.util.UUID;
 @AllArgsConstructor
 @NoArgsConstructor
 
-public class coupom {
+public class Coupom {
 
     @Id
     @GeneratedValue
