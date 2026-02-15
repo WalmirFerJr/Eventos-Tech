@@ -1,4 +1,4 @@
-package com.eventostech.api.domain.coupom;
+package com.eventostech.api.domain.coupon;
 
 import com.eventostech.api.domain.event.Event;
 import jakarta.persistence.*;
@@ -17,7 +17,7 @@ import java.util.UUID;
 @AllArgsConstructor
 @NoArgsConstructor
 
-public class Coupom {
+public class Coupon {
 
     @Id
     @GeneratedValue
