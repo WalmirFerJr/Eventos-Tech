@@ -9,4 +9,4 @@ CREATE TABLE event (
     date TIMESTAMP NOT NULL,
     remote BOOLEAN NOT NULL
 
-)
+);
